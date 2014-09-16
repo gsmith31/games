@@ -7,8 +7,35 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\420_fall14\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\LadyZ.xnb</Output>
-      <Time>2014-09-09T14:17:19.0115116-04:00</Time>
+      <Output>C:\games\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\LadyZ.xnb</Output>
+      <Time>2014-09-16T14:32:26.8035947-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\level_up_kazoo.wav</Source>
+      <Name>Audio\level_up_kazoo</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\games\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Audio\level_up_kazoo.xnb</Output>
+      <Time>2014-09-16T15:13:13.5969143-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\moon_music.wav</Source>
+      <Name>Audio\moon_music</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\games\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Audio\moon_music.xnb</Output>
+      <Time>2014-09-16T14:58:19.6717353-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\triple_jump.wav</Source>
+      <Name>Audio\triple_jump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\games\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Audio\triple_jump.xnb</Output>
+      <Time>2014-09-16T14:52:51.4006928-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -16,10 +43,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\420_fall14\GameOne\GameOne\GameOneContent\</RootDirectory>
-      <LoggerRootDirectory>C:\420_fall14\GameOne\GameOne\GameOne\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\420_fall14\GameOne\GameOne\GameOneContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\420_fall14\GameOne\GameOne\GameOne\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\games\GameOne\GameOne\GameOneContent\</RootDirectory>
+      <LoggerRootDirectory>C:\games\GameOne\GameOne\GameOne\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\games\GameOne\GameOne\GameOneContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\games\GameOne\GameOne\GameOne\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

@@ -26,11 +26,13 @@ namespace GameOne
         }
         GlitchPlayerState currentState;
         AbstractState[] states;
+        Game game;
 
-        public GlitchPlayer(Texture2D image)
+        public GlitchPlayer(Texture2D image, Game aGame)
             : base(new SpriteSheet(image, new Point(21, 6)), Vector2.Zero,
            10, new Vector2(2, 2))
         {
+            this.game = aGame;
             // set the segments
             Point frameSize = new Point(192, 160);
             spriteSheet.addSegment(frameSize, new Point(0, 0), new Point(11, 0), 50);
@@ -110,6 +112,7 @@ namespace GameOne
                 // transition to jumping state
                 if (Keyboard.GetState().IsKeyDown(Keys.Space) || GamePad.GetState(PlayerIndex.One).Buttons.A == ButtonState.Pressed)
                 {
+                    ((Game1)player.game).PlayCure("triple_jump");
                     timeSinceLastMove = 0;
                     player.switchState(GlitchPlayerState.Jumping);
                 }

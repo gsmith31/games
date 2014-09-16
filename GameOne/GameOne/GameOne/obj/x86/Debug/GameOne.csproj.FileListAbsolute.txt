@@ -19,3 +19,5 @@ C:\420_fall14\GameOne\GameOne\GameOne\obj\x86\Debug\GameOne.csprojResolveAssembl
 C:\420_fall14\GameOne\GameOne\GameOne\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\420_fall14\GameOne\GameOne\GameOne\obj\x86\Debug\GameOne.exe
 C:\420_fall14\GameOne\GameOne\GameOne\obj\x86\Debug\GameOne.pdb
+C:\games\GameOne\GameOne\GameOne\obj\x86\Debug\GameOne.exe
+C:\games\GameOne\GameOne\GameOne\obj\x86\Debug\GameOne.pdb

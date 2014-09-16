@@ -21,6 +21,10 @@ namespace GameOne
 
         SpriteManager spriteManager;
 
+        AudioEngine audioEngine;
+        WaveBank waveBank;
+        SoundBank soundBank;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -49,8 +53,13 @@ namespace GameOne
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
             // TODO: use this.Content to load your game content here
+            audioEngine = new AudioEngine(@"Content\Audio\GameAudio.xap");
+            waveBank = new WaveBank(audioEngine, @"Content\Audio\Wave Bank.xwb");
+            soundBank = new SoundBank(audioEngine, @"Content\Audio\Sound Bank.xsb");
+
+            //Start soundtrack
+            soundBank.PlayCue("moon_music");
         }
 
         /// <summary>
@@ -73,7 +82,7 @@ namespace GameOne
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            // TODO: Add your update logic here
+            audioEngine.Update();
 
             base.Update(gameTime);
         }
@@ -89,6 +98,11 @@ namespace GameOne
             // TODO: Add your drawing code here
 
             base.Draw(gameTime);
+        }
+
+        public void PlayCure(String cueName)
+        {
+            soundBank.PlayCue(cueName);
         }
     }
 }

@@ -41,7 +41,8 @@ namespace GameOne
         {
             spriteBatch = new SpriteBatch(Game.GraphicsDevice);
 
-            spriteList.Add(new GlitchPlayer(Game.Content.Load<Texture2D>(@"Images/LadyZ")));
+
+            spriteList.Add(new GlitchPlayer(Game.Content.Load<Texture2D>(@"Images/LadyZ"), Game));
 
             base.LoadContent();
         }
